@@ -1,10 +1,10 @@
-    /* Body style */
+    /* Body style CSS */
     body{
         background-color: black;
         margin: 0;
     }
     
-        /* Navigation bar & logo */
+    /* Navigation bar & logo CSS */
     .navparent {
     /* Box model application */
         width: 100%;
@@ -16,10 +16,9 @@
         justify-content: space-between;
     /* Positioning application */
         position: fixed;    
-    
     }
     
-        /* Navigation bar links */
+    /* Navigation bar links CSS */
     .navchildren {
     /* Flex / Box model / Positioning application */
         display: flex;
@@ -42,7 +41,7 @@
         
     }
     
-        /* Adjustment for titles, text, & hyperlinks*/
+    /* Adjustment for titles, text, & hyperlinks CSS*/
     a  {    
         color: lightgrey;   
     }
@@ -75,6 +74,7 @@
         border-radius: 10px;
     }
 
+    /* CSS for div section classes */
     .section1 {
         width: 100%;
         height: 100vh;
@@ -115,6 +115,7 @@
         justify-content: center;
     }
 
+    /* CSS for footer */
     footer {
         display: flex;
         justify-content: center;
