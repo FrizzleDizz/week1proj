@@ -1,0 +1,122 @@
+    /* Body style */
+    body{
+        background-color: black;
+        margin: 0;
+    }
+    
+        /* Navigation bar & logo */
+    .navparent {
+    /* Box model application */
+        width: 100%;
+        height: 100px;
+        background-color: transparent;
+    /* Flex application */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    /* Positioning application */
+        position: fixed;    
+    
+    }
+    
+        /* Navigation bar links */
+    .navchildren {
+    /* Flex / Box model / Positioning application */
+        display: flex;
+        width: 30%;
+        top: 42px;
+        left: 220px;
+        flex-direction: row;
+        justify-content: space-between;
+        position: absolute;
+    
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 12px;
+        text-decoration: underline;
+        font-size: 22px;
+        line-height: 25px;
+        border-radius: 4px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+    }
+    
+        /* Adjustment for titles, text, & hyperlinks*/
+    a  {    
+        color: lightgrey;   
+    }
+    a:hover {
+        color: lightcyan;
+        text-decoration: underline;
+    }
+    .title1 {
+        font-family: monospace;
+        font-size: 15px;
+        color: lightgrey;
+    }
+
+    .title2 {
+        font-family: monospace;
+        font-size: 30px;
+        color: lightgrey;
+    }
+
+    .linkbutton {
+        background-color: #04AA6D; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: underline;
+        display: inline-block;
+        font-size: 16px;
+        font-family: monospace ;
+        border-radius: 10px;
+    }
+
+    .section1 {
+        width: 100%;
+        height: 100vh;
+        background-image: url(spaced2.jpg);
+        background-size: cover;
+        background-position: center center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+
+    }
+
+    .section2 {
+        width: 100%;
+        height: 100vh;
+        background-image: url(spaced1.jpg);
+        background-size: cover;
+        background-position: center center;
+
+    }
+
+    .section3 {
+        width: 100%;
+        height: 100vh;
+        background-image: url(spaced.jpg);
+        background-size: cover;
+        background-position: center center;
+
+    }
+    .scontent{
+        width: 400px;
+        height: 100vh;
+
+        display: flex;
+        margin-left: 100px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
