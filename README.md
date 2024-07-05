@@ -30,3 +30,6 @@ Errors / Bugs:
 and the pull was not committing one way which wouldn't enable me to push the code.
 This was resolved & I learned through research how to commit both ways.
 
+Feedback Request:
+1: Any way I could have coded this more efficiently?
+2: Any way I could have made this code more organised?
