@@ -18,6 +18,9 @@ What went well:
 2: no heavy debugging necessary in coding phase
 3: developed confidence in using HTML and CSS to develop webpages
 
+What could have gone better:
+1: more structured and time efficient approach to initial HTML layout
+
 External Resources:
 1: W3Schools.com
 2: Stackoverflow.com

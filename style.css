@@ -77,28 +77,33 @@
     }
 
     /* CSS for div section classes */
-    .section1 {
-        width: 100%;
+    .sections{
+        /*each sections dimensions*/
+        width: 400px;
         height: 100vh;
+        /*flexbox manipulation for sections*/
+        display: flex;
+        margin-left: 100px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section1 {
+        /*section appearance*/
         background-image: url(spaced2.jpg);
         background-size: cover;
         background-position: center center;
-
+        /*section content flex manipulation*/
         display: flex;
         flex-direction: column;
         justify-content: center; 
 
     }
-
     .section2 {
-        width: 100%;
-        height: 100vh;
         background-image: url(spaced1.jpg);
         background-size: cover;
         background-position: center center;
 
     }
-
     .section3 {
         width: 100%;
         height: 100vh;
@@ -106,15 +111,6 @@
         background-size: cover;
         background-position: center center;
 
-    }
-    .scontent{
-        width: 400px;
-        height: 100vh;
-
-        display: flex;
-        margin-left: 100px;
-        flex-direction: column;
-        justify-content: center;
     }
 
     /* CSS for footer */
