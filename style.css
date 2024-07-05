@@ -8,6 +8,7 @@
     .navparent {
     /* Box model application */
         width: 100%;
+        left: 10px;
         height: 100px;
         background-color: transparent;
     /* Flex application */

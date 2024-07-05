@@ -1,5 +1,5 @@
 # week1proj
-Splash page completed & updated with comments to organise code
+(ReadMe Best viewed in code (above))
 
 Requirements met:
 1: Set up page structure under a .html file
@@ -10,7 +10,20 @@ Requirements met:
 6: Added various background images to each section
 7: Made use of absolute positioning to keep the header at the top of the page
 
+Any requirements/goals not met:
+None
+
 What went well:
 1: easily implemented, done within time frame
 2: no heavy debugging necessary in coding phase
-3: when uploading to GitHub from the console I had edited the README file from the browser, and the pull was not committing one way which wouldn't enable me to push the code, this was resolved & I learned through research how to commit both ways.
+3: developed confidence in using HTML and CSS to develop webpages
+
+External Resources:
+1: W3Schools.com
+2: Stackoverflow.com
+
+Errors / Bugs:
+1: when uploading to GitHub from the console I had edited the README file from the browser, 
+and the pull was not committing one way which wouldn't enable me to push the code.
+This was resolved & I learned through research how to commit both ways.
+
